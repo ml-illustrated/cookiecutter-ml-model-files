@@ -1,0 +1,15 @@
+{
+  "project_name": "Name of your ML model files package",
+  "author_full_name": "",
+  "author_email": "",
+  "github_username": "",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.0.1",
+  "create_author_file": "y",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.package_name }}"
+
+}

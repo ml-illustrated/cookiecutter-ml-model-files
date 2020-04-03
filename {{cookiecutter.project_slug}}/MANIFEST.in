@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+
+recursive-include {{ cookiecutter.project_slug }}/models *
+
+recursive-include tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
