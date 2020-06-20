@@ -4,9 +4,12 @@
 
 {{ cookiecutter.project_short_description }}
 
-## Features
+## Basic Usage
 
-- TODO
+```
+from {{ cookiecutter.project_slug }} import {{ cookiecutter.model_file_class_name }}
+print( 'model file path is %s' % ( {{ cookiecutter.model_file_class_name }}.get_model_file_path() ) )
+```
 
 ## Credits
 
