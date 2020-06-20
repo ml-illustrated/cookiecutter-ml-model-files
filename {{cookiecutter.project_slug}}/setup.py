@@ -25,6 +25,7 @@ setup(
     author_email="{{ cookiecutter.author_email }}",
     description="{{ cookiecutter.project_short_description }}",
     long_description=read("README.md"),
+    long_description_content_type='text/markdown',
     packages=find_packages(exclude=("tests",)),
     install_requires=requirements,
     include_package_data=True,

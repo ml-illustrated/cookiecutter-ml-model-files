@@ -1,3 +1,6 @@
+# Version of the {{ cookiecutter.project_slug }} package
+__version__ = "{{ cookiecutter.version }}"
+
 import os, inspect
 
 class {{ cookiecutter.model_file_class_name }}(object):
